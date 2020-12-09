@@ -1,0 +1,5 @@
+{
+	"Permission": "moderator",
+	"PermitCommand": "!permit",
+	"UnpermitCommand": "!unpermit"
+}
