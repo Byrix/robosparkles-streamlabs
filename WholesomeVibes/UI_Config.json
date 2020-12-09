@@ -1,0 +1,56 @@
+﻿{
+    "ComplimentCommand": {
+        "group": "Core", 
+        "label": "Compliment Command", 
+        "tooltip": "Command to trigger the compliment", 
+        "type": "textbox", 
+        "value": "!compliment"
+    }, 
+    "Cooldown": {
+        "group": "Core", 
+        "label": "Cooldown (seconds)", 
+        "max": 120, 
+        "min": 0, 
+        "ticks": 1, 
+        "tooltip": "How long the command should go on cooldown for", 
+        "type": "slider", 
+        "value": 0
+    }, 
+    "HugCommand": {
+        "group": "Core", 
+        "label": "Hug Command", 
+        "tooltip": "Command to trigger the hug", 
+        "type": "textbox", 
+        "value": "!hug"
+    }, 
+    "Permission": {
+        "group": "Core", 
+        "items": [
+            "everyone", 
+            "subscriber", 
+            "moderator", 
+            "editor", 
+            "user_specific"
+        ], 
+        "label": "Permission", 
+        "tooltip": "Who is able to use the command", 
+        "type": "dropdown", 
+        "value": "everyone"
+    }, 
+    "Users": {
+        "group": "Core", 
+        "label": "Allowed Users", 
+        "tooltip": "List the users allowed to use this command", 
+        "type": "textbox", 
+        "value": ""
+    }, 
+    "btnStart": {
+        "function": "EdithugFile", 
+        "group": "Core", 
+        "label": "Edit Hug File", 
+        "tooltip": "Opens editor to edit the hugs file - Save settings or reload script after editing", 
+        "type": "button", 
+        "wsevent": "EVENT_NONE"
+    }, 
+    "output_file": "wholesome-settings.json"
+}

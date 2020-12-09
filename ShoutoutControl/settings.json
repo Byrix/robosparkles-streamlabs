@@ -1,0 +1,11 @@
+{
+	"Command": "!so",
+	"altCommands": "",
+	"Cooldown": 0,
+	"Permission": "moderator",
+	"Users": "",
+	"Prefix": "",
+	"Suffix": "<3",
+	"RaidShoutout": false,
+	"RaidWait": 30
+}

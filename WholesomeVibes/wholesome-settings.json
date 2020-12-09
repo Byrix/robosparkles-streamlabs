@@ -1,0 +1,7 @@
+{
+	"HugCommand": "!hug",
+	"ComplimentCommand", "!compliment",
+	"Cooldown": 0,
+	"Permission": "everyone",
+	"Users": "",
+}

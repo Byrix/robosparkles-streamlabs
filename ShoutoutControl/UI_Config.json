@@ -1,0 +1,87 @@
+﻿{
+    "Command": {
+        "group": "Core", 
+        "label": "Command", 
+        "tooltip": "The trigger command", 
+        "type": "textbox", 
+        "value": "!so"
+    }, 
+    "Cooldown": {
+        "group": "Core", 
+        "label": "Cooldown (seconds)", 
+        "max": 120, 
+        "min": 0, 
+        "ticks": 1, 
+        "tooltip": "How long the command should go on cooldown for", 
+        "type": "slider", 
+        "value": 0
+    }, 
+    "Permission": {
+        "group": "Core", 
+        "items": [
+            "everyone", 
+            "subscriber", 
+            "moderator", 
+            "editor", 
+            "user_specific"
+        ], 
+        "label": "Permission", 
+        "tooltip": "Who is able to use the command", 
+        "type": "dropdown", 
+        "value": "moderator"
+    }, 
+    "Prefix": {
+        "group": "Core", 
+        "label": "Shoutout Prefix", 
+        "tooltip": "Text to preface all shoutouts with", 
+        "type": "textbox", 
+        "value": ""
+    }, 
+    "RaidShoutout": {
+        "group": "Core", 
+        "label": "Auto-Shoutout Raiders", 
+        "tooltip": "Automatically create shoutouts for incoming raiders", 
+        "type": "checkbox", 
+        "value": false
+    }, 
+    "RaidWait": {
+        "group": "Core", 
+        "label": "Delay on raid auto-shoutout", 
+        "max": 120, 
+        "min": 0, 
+        "ticks": 1, 
+        "tooltip": "How long to wait after a raid before shouting out", 
+        "type": "slider", 
+        "value": 30
+    }, 
+    "Suffix": {
+        "group": "Core", 
+        "label": "Shoutout Suffix", 
+        "tooltip": "Text to end all shoutouts with", 
+        "type": "textbox", 
+        "value": "biospa2Yay"
+    }, 
+    "Users": {
+        "group": "Core", 
+        "label": "Allowed Users", 
+        "tooltip": "List the users allowed to use this command", 
+        "type": "textbox", 
+        "value": ""
+    }, 
+    "altCommands": {
+        "group": "Core", 
+        "label": "Alternative Commands", 
+        "tooltip": "Alternative commands to trigger action", 
+        "type": "textbox", 
+        "value": ""
+    }, 
+    "btnStart": {
+        "function": "EditConfigFile", 
+        "group": "Core", 
+        "label": "Edit File", 
+        "tooltip": "Opens editor to edit the stares file - Save settings or reload script after editing", 
+        "type": "button", 
+        "wsevent": "EVENT_NONE"
+    }, 
+    "output_file": "settings.json"
+}
