@@ -1,0 +1,1 @@
+﻿var settings = {"AddPermission": "subscriber", "RemoveCommand": "!removequote", "ShowGame": true, "EditCooldown": 0, "AddCooldown": 0, "CallCommand": "!quote", "ShowDate": true, "CallPermission": "everyone", "CallCooldown": 0, "EditPermission": "moderator", "EditCommand": "!editquote", "AddCommand": "!addquote"};

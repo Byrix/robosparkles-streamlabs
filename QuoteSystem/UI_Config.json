@@ -1,0 +1,114 @@
+﻿{
+    "AddCommand": {
+        "group": "Add Quotes", 
+        "label": "Add Quote Command", 
+        "tooltip": "The command to use when adding a new quote", 
+        "type": "textbox", 
+        "value": "!addquote"
+    }, 
+    "AddCooldown": {
+        "group": "Add Quotes", 
+        "label": "Add Cooldown", 
+        "max": 120, 
+        "min": 0, 
+        "ticks": 1, 
+        "tooltip": "Cooldown on the add command", 
+        "type": "slider", 
+        "value": 0
+    }, 
+    "AddPermission": {
+        "group": "Add Quotes", 
+        "items": [
+            "everyone", 
+            "subscriber", 
+            "moderator", 
+            "editor"
+        ], 
+        "label": "Add Permission", 
+        "tooltip": "Who can add new quotes", 
+        "type": "dropdown", 
+        "value": "subscriber"
+    }, 
+    "CallCommand": {
+        "group": "General", 
+        "label": "Call Command", 
+        "tooltip": "The command to be used to bring up a quote", 
+        "type": "textbox", 
+        "value": "!quote"
+    }, 
+    "CallCooldown": {
+        "group": "General", 
+        "label": "Call Cooldown", 
+        "max": 120, 
+        "min": 0, 
+        "ticks": 1, 
+        "tooltip": "Cooldown on the call command", 
+        "type": "slider", 
+        "value": 0
+    }, 
+    "CallPermission": {
+        "group": "General", 
+        "items": [
+            "everyone", 
+            "subscriber", 
+            "moderator", 
+            "editor"
+        ], 
+        "label": "Call Permission", 
+        "tooltip": "Who can call up quotes", 
+        "type": "dropdown", 
+        "value": "everyone"
+    }, 
+    "EditCommand": {
+        "group": "Edit Quotes", 
+        "label": "Edit Quote Command", 
+        "tooltip": "The command to use when editing quotes", 
+        "type": "textbox", 
+        "value": "!editquote"
+    }, 
+    "EditCooldown": {
+        "group": "Edit Quotes", 
+        "label": "Edit Cooldown", 
+        "max": 120, 
+        "min": 0, 
+        "ticks": 1, 
+        "tooltip": "Cooldown on edit commands", 
+        "type": "slider", 
+        "value": 0
+    }, 
+    "EditPermission": {
+        "group": "Edit Quotes", 
+        "items": [
+            "everyone", 
+            "subscriber", 
+            "moderator", 
+            "editor"
+        ], 
+        "label": "Edit Permission", 
+        "tooltip": "Who can add new quotes", 
+        "type": "dropdown", 
+        "value": "moderator"
+    }, 
+    "RemoveCommand": {
+        "group": "Edit Quotes", 
+        "label": "Remove Quote Command", 
+        "tooltip": "The command to use when deleting quotes", 
+        "type": "textbox", 
+        "value": "!removequote"
+    }, 
+    "ShowDate": {
+        "group": "General", 
+        "label": "Show Date?", 
+        "tooltip": "Show the date when quote was added", 
+        "type": "checkbox", 
+        "value": true
+    }, 
+    "ShowGame": {
+        "group": "General", 
+        "label": "Show Game?", 
+        "tooltip": "Show the game being played when quotes were added", 
+        "type": "checkbox", 
+        "value": true
+    }, 
+    "output_file": "quote-settings.json"
+}
