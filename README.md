@@ -2,7 +2,8 @@
 
 Scripts to enhance your Twitch chatbot. Built for use with Streamlabs Chatbot.
 
-For full information on how to install, uninstall, and what each script does please read the documentation file included
-
 Created by Byrix, for use by BioSparkles:
 twitch.tv/biosparkles
+
+## Getting started
+If you want to use this for yourself feel free. Info on how to install and configure can be found on the wiki here. 
